@@ -2,7 +2,11 @@
 A high-speed Robust Torrent Download Package
 
 # Install
-Just download and unzip. <br>Change your direction to the file then type following command:
+You can install ooxx1024 with pip:
+
+	pip install ooxx1024
+
+Or download the source code and unzip. <br>Change your direction to the file then use following command:
 
 	python setup.py install
 
@@ -27,6 +31,16 @@ It may take seconds to come to a completely stop.
 ### Change Save Directory
 	
 	dl.save_dir = "C:/My/Secret/File/"
+
+### Change Taste
+The default taste of our downloader is "Asian1". 
+Available tastes are listed in:
+
+	dl.taste_list
+
+Pick your favor, and told the downloader:
+
+	dl.taste = "Animate"
 
 ### Use Proxies
 
